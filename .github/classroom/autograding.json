@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "1st Test",
+      "setup": "javac -cp . SumaDosNumeros.java Main.java",
+      "run": "java -cp . Main 1 1",
+      "input": "",
+      "output": "2",
+      "comparison": "exact",
+      "timeout": 3,
+      "points": 25
+    },
+    {
+      "name": "2do Test",
+      "setup": "javac -cp . SumaDosNumeros.java Main.java",
+      "run": "java -cp . Main 17 3",
+      "input": "",
+      "output": "20",
+      "comparison": "exact",
+      "timeout": 3,
+      "points": 25
+    }
+  ]
+}
